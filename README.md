@@ -12,5 +12,5 @@ The vicon_tracker recorded data at a significantly higher frequency than FLOAM. 
 
 Lastly, I created a function called ```error``` that took two arguments: a FLOAM list and a corresponding vicon list, and returned the abolute and maximum error from the FLOAM list as the experiemental dataset and the vicon_tracker as the reference data set.
 
-## A side note
+## A Side Note
 I've also added grapher.py in the source folder, which graphed the FLOAM's x, y, and z translation and x, y, z, and w rotation odometry data against vicon_tracker's.
