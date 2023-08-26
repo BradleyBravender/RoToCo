@@ -14,4 +14,3 @@ Lastly, I created a function called ```error``` that took two arguments: a FLOAM
 
 ## A side note
 I've also added grapher.py in the source folder, which graphed the FLOAM's x, y, and z translation and x, y, z, and w rotation odometry data against vicon_tracker's.
-
