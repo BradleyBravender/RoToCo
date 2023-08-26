@@ -11,3 +11,7 @@ Because the timestamps were different for both odometries, we needed to use one'
 The vicon_tracker recorded data at a significantly higher frequency than FLOAM. To preserve the integrity of the data (i.e. to remove excess existing data points intead of to generate excess non-existing data points), I decided to interpolate the vicon's odometry on the FLOAM's timestamp, thereby transforming the vicon's x, y, and yaw lists to inherit the same shape and timestamps that the corresponding FLOAM lists had.
 
 Lastly, I created a function called ```error``` that took two arguments: a FLOAM list and a corresponding vicon list, and returned the abolute and maximum error from the FLOAM list as the experiemental dataset and the vicon_tracker as the reference data set.
+
+## A side note
+I've also added grapher.py in the source folder, which graphed the FLOAM's x, y, and z translation and x, y, z, and w rotation odometry data against vicon_tracker's.
+
